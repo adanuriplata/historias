@@ -1,0 +1,22 @@
+.texto2 .historia h1{
+  font-family: Oleo Script;
+  font-size: 55px;
+  line-height: 61px;
+  letter-spacing: -1.1px;
+  color: #FFFFFF;
+}
+
+
+.texto2 .historia p{
+  font-size: 16px;
+  color: white;
+}
+.historia{
+  background-color: rgba(0,0,0,.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+.sube-volumen{
+  font-size: 18px;
+  color: darkblue;
+}

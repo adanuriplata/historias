@@ -1,0 +1,78 @@
+html,body{
+margin:0px;
+height:100%;
+font-family: 'Oleo Script', cursive;
+}
+
+.box{
+  background-image: url(img/imgLandingForm768x1024.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor-conoce{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 41px;
+}
+
+.contenedor-conoce p{
+  font-size : 48px;
+  line-height : 46.09px;
+  letter-spacing : -0.82px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+  margin-bottom: 20px;
+}
+
+.contenedor-conoce .mailchimp #mc_embed_signup #mc_embed_signup_scroll .mc-field-group{
+  display: inline-block;
+}
+
+.contenedor-conoce .mailchimp #mc_embed_signup #mc_embed_signup_scroll .mc-field-group input{
+  width: 200px;
+  background:rgba(199,207,187,0.3);
+  border: 4px solid #C8B8CC;
+  border-radius: 15px;
+  padding: 5px;
+  color: white;
+}
+
+.contenedor-conoce .mailchimp #mc_embed_signup #mc_embed_signup_scroll .clear #mc-embedded-subscribe{
+  width: 100px;
+  background:rgba(255,0,0,0.3);
+  border: 1px solid #C8B8CC;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+
+::placeholder {
+   color: white;
+   text-align: center;
+ }
+
+ @media only screen and (max-width: 500px){
+   .box{
+     background-position: initial;
+     height: 110%;
+   }
+   .contenedor-conoce p{
+     font-size: 38px;
+     padding-top: 35px;
+   }
+   .logos figure img{
+     width: 70%;
+   }
+   .contenedor-conoce .mailchimp #mc_embed_signup #mc_embed_signup_scroll .clear #mc-embedded-subscribe{
+     color: rgb(10, 88, 72);
+   }
+ }

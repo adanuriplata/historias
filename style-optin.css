@@ -1,0 +1,96 @@
+html,body{
+margin:0px;
+height:100%;
+font-family: 'Oleo Script', cursive;
+}
+
+.box{
+  background-image: url(img/imgLanding1280x635.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor-conoce{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 41px;
+  background-color: rgba(0,0,0,.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contenedor-conoce h1{
+  font-size: 32px;
+  line-height: 46.09px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.contenedor-conoce p{
+  font-size: 20px;
+  line-height: 46.09px;
+  letter-spacing: 1.2px;
+  color: rgb(183, 179, 179);
+  margin-bottom: 20px;
+}
+
+.contenedor-conoce p span{
+  color: darkseagreen;
+}
+
+.contenedor-conoce ul{
+  list-style: none;
+  font-size: 12px;
+  margin: 10px;
+  display: inline-flex;
+  padding: 0;
+}
+
+.contenedor-conoce ul li{
+  list-style: none;
+  font-size: 17px;
+}
+
+.contenedor-conoce ul li:first-child{
+  margin-right: 50px;
+}
+
+.contenedor-conoce ul li a{
+  text-decoration: none;
+  color: palevioletred;;
+}
+
+@media only screen and (max-width: 500px){
+  .contenedor-conoce{
+    width: 90%;
+    padding: 10px;
+  }
+  .contenedor-conoce h1{
+    font-size: 25px;
+    line-height: 46.09px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+  }
+
+  .contenedor-conoce p{
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    color: rgb(183, 179, 179);
+    margin-bottom: 20px;
+  }
+
+  .contenedor-conoce ul li{
+    font-size: 15px;
+  }
+}

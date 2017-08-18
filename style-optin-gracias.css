@@ -1,0 +1,98 @@
+html,body{
+margin:0px;
+height:100%;
+font-family: 'Oleo Script', cursive;
+}
+
+.box{
+  background-image: url(img/imgLanding1280x635.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor-conoce{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 41px;
+  background-color: rgba(0,0,0,.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contenedor-conoce h1{
+  font-size: 32px;
+  line-height: 46.09px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.contenedor-conoce p{
+  font-size: 20px;
+  line-height: 46.09px;
+  letter-spacing: 1.2px;
+  color: rgb(183, 179, 179);
+  margin-bottom: 20px;
+}
+
+.contenedor-conoce p span{
+  color: darkseagreen;
+}
+
+
+/*Contador*/
+.dash {
+	width: 110px;
+	height: 114px;
+	float: left;
+	margin-left: 20px;
+	position: relative;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.dash .digit {
+	font-size: 55px;
+	font-weight: bold;
+	float: left;
+	width: 55px;
+	text-align: center;
+	color: #fff;
+	position: relative;
+}
+
+.dash_title {
+	position: absolute;
+	display: block;
+	bottom: 0px;
+	right: 6px;
+	font-size: 9pt;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.contenedor-conoce p{
+  font-size : 30px;
+  line-height : 46.09px;
+  letter-spacing : -0.82px;
+  color : #FFFFFF;
+  margin-bottom: 20px;
+  margin-top: 15px;
+
+}
+.contenedor-conoce .texto{
+  font-size : 30px;
+  line-height : 46.09px;
+  letter-spacing : -0.82px;
+  color : #FFFFFF;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
