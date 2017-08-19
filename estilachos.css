@@ -54,6 +54,30 @@ font-family: 'Oleo Script', cursive;
   font-size: 41px;
 }
 
+.texto2 .historia h1{
+  font-family: Oleo Script;
+  font-size: 55px;
+  line-height: 61px;
+  letter-spacing: -1.1px;
+  color: #FFFFFF;
+}
+
+
+.texto2 .historia p{
+  font-size: 16px;
+  color: white;
+}
+.historia{
+  background-color: rgba(0,0,0,.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+.sube-volumen{
+  font-size: 18px;
+  color: darkblue;
+}
+
+
 /*Contador*/
 #countdown_dashboard{
   display: inline-flex;
@@ -127,6 +151,36 @@ font-family: 'Oleo Script', cursive;
 }
 
 @media only screen and (max-width: 500px){
+  .texto{
+    width: 90%
+  }
+  .texto .boton{
+    margin-top: 40px;
+  }
+  .texto2{
+    top: 200%;
+  }
+  .texto2 .historia img{
+    width: 330px;
+    height: 185.5px;
+  }
+  .fondo{
+    height: 320%;
+  }
+  .texto-impulsar-vida{
+    color: black;
+    margin-top: auto;
+    font-size: 18px;
+    margin-bottom: 0
+  }
+  .texto .parrafo{
+    font-size: 45px;
+  }
+  .texto .parrafo-2{
+    font-size: 55px;
+  }
+
+
   #countdown_dashboard{
     width: 250px;
   }
@@ -137,20 +191,12 @@ font-family: 'Oleo Script', cursive;
   .dash_title{
     position: initial;
   }
-  .texto-impulsar-vida{
-    margin-top: auto;
-  }
-  .texto .parrafo{
-    font-size: 45px;
-  }
-  .texto .parrafo-2{
-    font-size: 55px;
-  }
+
 }
 
 @media only screen and (max-width: 330px){
   .texto{
-    width: 100%
+    width: 90%
   }
 
   .texto .parrafo{
@@ -164,12 +210,26 @@ font-family: 'Oleo Script', cursive;
     margin-top: 40px;
   }
   .texto2{
-    top: 260%;
+    top: 215%;
   }
+
+  .texto2 .historia img{
+    width: 215px;
+    height: 142.75px;
+  }
+
+  .sube-volumen{
+    font-size: 18px;
+    color: white;
+  }
+  .sube-volumen .icon-headphones{
+    color: rgb(245, 124, 241)
+  }
+
   .fondo{
-    height: 520%;
+    height: 300%;
   }
   .texto-impulsar-vida{
-    color: black;
+    color: white;
   }
 }
